@@ -1,0 +1,14 @@
+{
+  "name": "portofolio_sass",
+  "version": "1.0.0",
+  "description": "portofolio ovidiu",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o deploy/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
